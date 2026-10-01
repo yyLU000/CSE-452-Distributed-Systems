@@ -60,7 +60,7 @@ public class KVStore implements Application {
 
   // Your code here...
 
-  private Map<String, String> db = new HashMap<>();
+  protected final Map<String, String> db = new HashMap<>();
 
   @Override
   public KVStoreResult execute(Command command) {
